@@ -4,7 +4,7 @@ on:
 jobs:
   HelloWorld:
     name: Hello-world
-    runs-on: self-hosted
+    runs-on: [self-hosted, Docker]
     steps:
       - name: test
         uses: actions/hello-world-javascript-action@main
