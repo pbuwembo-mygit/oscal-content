@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   my-job:
-    runs-on: linux
+    runs-on: Linux
     steps:
       - name: my-step
         run: echo "Hello World!"
